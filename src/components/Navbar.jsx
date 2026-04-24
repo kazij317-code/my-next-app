@@ -222,7 +222,7 @@ const Navbar = () => {
     {/* (9)en */}
 
     {/* (10)st commit (9) */}
-        <li><Link className={pathName === '/' ? 'text-blue-400 border' : ''} href="/">Home</Link></li>
+        <li><Link className={pathName === '/' ? 'text-blue-400 border' : ''} href="/">Bangladesh</Link></li>
         <li><Link className={pathName === '/about' ? 'text-blue-400 border' : ''} href="/about">About</Link></li>
         <li><Link className={pathName === '/contact' ? 'text-blue-400 border' : ''} href="/contact">Contact</Link></li>
         <li><Link className={pathName === '/about/developers' ? 'text-blue-400 border' : ''} href="/about/developers">developers</Link></li>
